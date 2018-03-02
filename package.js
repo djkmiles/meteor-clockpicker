@@ -7,6 +7,7 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
+	api.versionsFrom('1.4')
     api.use('ui', 'client');
     api.addFiles(['lib/js/clockpicker.js', 'lib/css/clockpicker.css'], 'client');
 });
